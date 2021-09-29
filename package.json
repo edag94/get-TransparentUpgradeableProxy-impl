@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node ./bin/app.js"
+    "start": "node ./bin/app.js",
+    "get-impl": "yarn build && yarn start"
   },
   "dependencies": {
     "@types/node": "^16.9.6",
